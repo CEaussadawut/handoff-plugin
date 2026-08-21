@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "handoff",
+  "displayName": "Handoff",
+  "version": "0.1.0",
+  "description": "Cut a session off into a handoff .md, and pick it up in another Claude Code session or account.",
+  "author": {
+    "name": "CEaussadawut",
+    "email": "67015165@kmitl.ac.th"
+  },
+  "license": "MIT",
+  "keywords": ["handoff", "session", "continuity", "context", "usage-limit"]
+}
