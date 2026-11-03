@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: pickup-resumes-after-usage-limit
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  The previous session died on a usage limit before anyone ran /cutoff; only
+  the plugin's auto-saved snapshot and the transcript exist. The run finds the
+  snapshot, says it is uncurated, rebuilds the state from the digest and git
+  diff, identifies the uncommitted parse.py and client.py changes and the
+  pending 4xx question, claims nothing as verified, marks it picked up, and
+  never repeats the staging token.
