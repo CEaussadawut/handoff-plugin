@@ -1,6 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "aun-plugins",
+  "description": "CEaussadawut's Claude Code plugins.",
   "owner": {
     "name": "CEaussadawut",
     "email": "67015165@kmitl.ac.th"
@@ -9,9 +10,9 @@
     {
       "name": "handoff",
       "source": "./handoff",
-      "description": "Cut a session off into a handoff .md, and pick it up in another Claude Code session or account.",
+      "description": "Cut a session off into a handoff file and pick it up in another Claude Code session or account. New sessions point at open handoffs, and a session that hits its usage limit is auto-saved.",
       "category": "workflow",
-      "keywords": ["handoff", "session", "continuity", "context", "usage-limit"]
+      "keywords": ["handoff", "session", "continuity", "context", "usage-limit", "multi-account"]
     }
   ]
 }

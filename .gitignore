@@ -1,3 +1,4 @@
 .DS_Store
 Thumbs.db
 .handoff/
+__pycache__/
